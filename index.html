@@ -5,29 +5,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
     <title>Practica Uno</title>
 </head>
 
 <body>
-    <header>
-        <h1>Pagina de Axel</h1>
+    <header id="home">
+        <div id="siteName">
+            <h1>Pagina de Axel</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#aboutMe">About</a>
+                </li>
+                <li>
+                    <a href="#portafolio">Portafolio</a>
+                </li>
+                <li>
+                    <a href="https://github.com/DonnLalo" target="blank">GitHub</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <article>
-        <h2>Como me llamo?</h2>
-        <p>Me llamo Axel Eduardo y me pueden decir Lalo</p>
 
-        <h2>De donde soy?</h2>
-        <p>Soy de Aguascalientes, Mexico</p>
+    <section id="welcome" class="box">
+        <article id="aboutMe">
 
-        <h2>Cuales son mis hobbies?</h2>
-        <p>Me gusta mucho escuchar musica</p>
+            <div id="profilepic">
+                <img src="assets/img/mia.jpg" alt="AxelEduardo" width="500px" height="auto">
+            </div>
 
-        <h2>Dato Curioso</h2>
-        <p>Soy muy activo no me gusta estar quieto</p>
+            <h3>Como me llamo?</h3>
+            <p>Me llamo Axel Eduardo y me pueden decir Lalo</p>
 
-        <p></p>
-    </article>
+            <h3>De donde soy?</h3>
+            <p>Soy de Aguascalientes, Mexico</p>
 
+            <h3>Cuales son mis hobbies?</h3>
+            <p>Me gusta mucho escuchar musica</p>
+
+            <h3>Dato Curioso</h3>
+            <p>Soy muy activo no me gusta estar quieto</p>
+
+            <p></p>
+        </article>
+    </section>
+
+    <main>
+
+        <section class="box" id="portafolio">
+            <h2>portafolio</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </section>
+
+        <section class="box" id="skillSet">
+            <h2>Skill Set</h2>
+            <table border="1px">
+                <thead>
+                    <tr>
+                        <td><b>#</b></td>
+                        <td><b>Skill</b></td>
+                        <td><b>Conocimiento</b></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>HTML</td>
+                        <td>*****</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>CSS</td>
+                        <td>*****</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
 </body>
 
 </html>
